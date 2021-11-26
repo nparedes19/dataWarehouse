@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2dd4244cbe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="logo">LOGO</p>
+            <ul id="menuPrincipal" class="menu">   
+                <li id ="contactos" class="lista">Contactos</li>
+                <li id="companias" class ="lista">Compañías</li>
+                <li id="usuarios_inicio" class ="lista">Usuarios</li>
+                <li id="region" class ="lista">Región/Ciudad</li>
+            </ul> 
+        </nav>
+        <h1 id="contactosTitulo">Contactos</h1>
+        <div class="container-buscar" id= "contenedorBuscar">   
+            <form id="barra" class="buscar">
+                <div class="boxBuscar">
+                    <input autocomplete="off" class="barra-busqueda" id="inputSearch" type="text">
+                    <i id="flecha" class="fas fa-sort-down"></i>
+                </div>
+                <button type="submit" id="submit"><i id="btnBuscar" class="fas fa-search"></i></button>  
+            </form>
+            <div class="botones">
+                <div class="upload">
+                    <i id="flechaArriba" class="fas fa-upload"></i>
+                </div>
+                <div class="exportar">
+                    <p class="exportarContactos">Exportar contactos</p>
+                    <i id="flechaDos" class="fas fa-sort-down"></i>
+                </div>
+                <div class="boxBtnAgregar">
+                    <a class="myButtonAgregar">Agregar contacto</a> 
+                </div>
+            </div> 
+    </header>
+    <script src="frontinicio.js"> </script>
+</body>
+</html>

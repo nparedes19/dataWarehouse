@@ -1,0 +1,73 @@
+.new_div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    //padding: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.80);
+    color: #000000;
+    z-index: 999; 
+
+    .bigger_gif {
+        background: linear-gradient(#1D72C2 40%, white 40%) no-repeat;
+        width: 1215px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-bottom: 100px;
+
+        p {
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+           
+        }
+     
+    }
+    .add_company {
+        width: 1170px;
+        height: 130px;
+        background-color: white;
+        border: 3px solid #0683F9;
+        border-radius: 6.5px;
+        border-radius: 6.5px;
+        margin-left: auto;
+        margin-right: auto;
+        //position: absolute;
+        margin-top: -340px;
+        
+        .formularioRegionesEditar{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div {
+                padding-right: 5px;
+                padding-left: 5px;
+            
+
+                p{
+                    font-size: 15px;
+                    text-align: left;
+                    padding-bottom: 3px;
+                }
+
+                input{
+                        &[type="name"], &[type="email"], &[type="password"], &[type="perfil"] {
+                            height: 30px;                         
+                            border: 1px solid #CCCCCC;
+                        } 
+                
+                } 
+            }
+        }
+       
+    }
+}

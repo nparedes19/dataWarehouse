@@ -1,0 +1,177 @@
+/* general */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+
+}
+
+/*barra de navegacion*/
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    height: 64px;   
+    width: 100%;
+    background-color: #005eff;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #005eff;
+}
+
+.logo{
+    font-weight: bold;
+    color: white;
+    margin-top: 14px;
+    font-size: 25px ;
+    margin-left: 30px;
+    background-color: #005eff;
+}
+
+.lista{
+    background-color: #005eff;
+  }
+
+#div_title {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px 0px 200px;}
+
+#company{
+        width: 100px;
+        height: 45px;
+        font-size: 14px;
+        color: white;
+        background-color: #1D72C2;
+        outline: none;
+        cursor: pointer;
+        border: 1px solid white;
+    }
+
+#tablaCompany{
+    width: 1000px ;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tablaCompany th{
+    font-weight: 400;
+}
+
+.edit {
+    
+    font-weight: 400;
+    font-size: 16px;
+    
+ }
+.delete{
+    
+    
+    padding-left: 10px;
+   
+    
+}
+
+/*.new_div {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.80);
+    color: #000000;
+    z-index: 999; 
+    padding-right: 1050px;}
+
+.bigger_gif {
+    background: linear-gradient(#1D72C2 40%, white 40%) no-repeat;
+    width: 1215px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;}
+
+.bigger_gif p{
+    color: white;
+            font-weight: bold;
+            font-size: 25px;
+            float: left;
+            padding-left: 10px;
+            padding-top: 10px;
+}*/
+
+.new_div {
+    position: fixed;
+    top: 0;
+    right: auto;
+    left:auto;
+    width: 100%;
+    height: 100%;
+    padding: 300px;
+    text-align: center;
+    background: rgba(0,0,0,0.80);
+    color: #000000;
+    z-index: 999;
+    
+}
+
+.bigger_gif {
+        background: linear-gradient(#1D72C2 40%, white 40%) no-repeat;
+        width: 100%px;
+        height: 400px;
+        margin-left: -500px;
+        margin-top: -300px;
+        margin-bottom: 100px;}
+
+.bigger_gif p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    
+.add_company {
+        width: 1170px;
+        height: 300px;
+        background-color: white;
+        border: 3px solid #0683F9;
+        border-radius: 6.5px;
+        border-radius: 6.5px;
+        margin-top: -430PX;
+        margin-left: -70px;
+     }
+
+.add_company form div p{
+    font-size: 20px;
+}
+
+.buttons_company{
+    margin-left: 420px;
+   
+    margin-top:-35px;
+    width: 200px;
+}
+
+#compañias{
+    font-weight: bold;
+    border-bottom: solid white 2px;
+  }

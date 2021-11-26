@@ -1,0 +1,166 @@
+/* general */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+
+}
+
+/*barra de navegacion*/
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    height: 64px;   
+    width: 100%;
+    background-color: #005eff;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #005eff;
+}
+
+.logo{
+    font-weight: bold;
+    color: white;
+    margin-top: 14px;
+    font-size: 25px ;
+    margin-left: 30px;
+    background-color: #005eff;
+}
+
+.lista{
+    background-color: #005eff;
+  }
+
+.myButtonAgregar{
+  background-color: #005eff;
+}
+
+
+
+#contactosTitulo{
+    font-size: 25px ;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.container-buscar{
+    margin-top: 21px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.barra-busqueda{
+    width: 502px;
+    height: 41px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3.5px;
+   
+}
+
+.boxBuscar{
+    width: 520px;
+    height: 41px;
+    border: 1px;
+    display: flex;
+    
+}
+
+#flecha{
+    color:#9CAFC3;
+    width: 10px;
+    height: 7px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.buscar{
+    display: flex;
+}
+
+#btnBuscar{
+    color:#005eff;
+    width: 18px;
+    height: 18px;
+
+}
+
+#submit{
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 3.5px;
+    width: 41px;
+    height: 41px;
+    background-color: white;
+}
+
+.botones{
+    display: flex;
+    margin-left: 29%;
+}
+
+.upload{
+    border: 1px solid #005eff;
+    border-radius: 3.5px;
+    width: 41px;
+    height: 41px;
+    
+}
+
+#flechaArriba{
+    width: 14px;
+    height: 16px;
+    color: #005eff;
+    margin-left: 13px;
+    margin-top: 11px;
+}
+
+#flechaDos{
+    color:#005eff;
+    width: 10px;
+    height: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.exportar{
+    display:flex;
+    border: 1px solid #005eff;
+    border-radius: 1.5px;
+    margin-left: 10px;
+}
+
+.exportarContactos{
+    color:#005eff;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.boxBtnAgregar{
+    background: #005eff;
+    border-radius: 2px;
+    width: 173px;
+    height: 32px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.myButtonAgregar{
+    color:white;
+    margin-top: 9px;
+    
+   
+}
+

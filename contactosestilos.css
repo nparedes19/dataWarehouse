@@ -1,0 +1,530 @@
+/* general */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: white;*/
+
+}
+
+/*barra de navegacion*/
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    height: 64px;   
+    width: 100%;
+    background-color: #005eff;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #005eff;
+}
+
+.logo{
+    font-weight: bold;
+    color: white;
+    margin-top: 14px;
+    font-size: 25px ;
+    margin-left: 30px;
+    background-color: #005eff;
+}
+
+.lista{
+    background-color: #005eff;
+  }
+
+  main #boxContactos {
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+  }
+  
+  main #boxContactos h2 {
+    font-size: 30px;
+  }
+  
+  main #boxContactos h2 h5 {
+    font-size: 15px;
+    color: darkgray;
+  }
+  
+  main #boxContactos #cabecera {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-top: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  main #boxContactos #cabecera div {
+    width: 50%;
+  }
+  
+  main #boxContactos #cabecera div h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+    padding-top: 15px;
+    margin-left: auto;
+    color: white;
+    background-color: #005eff;
+    border-radius: 2px;
+    width: 173px;
+    height: 35px;
+  }
+  
+  main #boxContactos #cabecera div input {
+    width: 502px;
+    height: 41px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3.5px;
+  }
+  
+  main #boxContactos #cabecera div span {
+    margin: 0px 15px;
+    font-size: 23px;
+   
+    color:#005eff;
+    width: 0px;
+    height: 0px;
+    
+    border-radius: 3.5px;
+    
+    background-color: white;
+  }
+
+  main #boxContactos #cabecera div span i {
+    color:#005eff;
+    width: 35px;
+    height: 35px;
+  }
+  
+  main #boxContactos #cabecera #arrayDelete {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #f03738;
+  }
+  
+  main #boxContactos table {
+    width: 100%;
+  }
+  
+  main #boxContactos table thead {
+    background-color: #005eff;
+    color: white;
+    font-size: 17px;
+  }
+  
+  main #boxContactos table thead tr {
+    height: 30px;
+  }
+  
+  main #boxContactos table thead tr th {
+    font-weight: 500;
+  }
+  
+  main #boxContactos table thead tr th span {
+    color: lightgray;
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  
+  main #boxContactos table tbody tr:hover {
+    background-color: ghostwhite;
+  }
+  
+  main #boxContactos table tbody tr.contactive {
+    background-color: gainsboro;
+  }
+  
+  main #boxContactos table tbody tr th .editar {
+    background: #0462ba;
+    border-radius: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 3px auto;
+  }
+  
+  main #boxContactos table tbody tr th .eliminar {
+    background: #f03738;
+    border-radius: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 3px auto;
+  }
+  
+  main #boxContactos form #cont-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    /*margin-top: 15px;*/
+    padding-top: 13px;
+    background-color: white;
+    /*border-radius: 6px;*/
+    border: solid 3px #005eff;
+    height: 90px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  #boxCabecera{
+    background-color:#005eff; 
+  }
+
+  #cabeContactos{
+    color:white;
+    
+  }
+
+  #boxEditar{
+    border: solid 5px #005eff;
+    border-radius: 10px;
+  }
+  
+  main #boxContactos form #cont-up li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    
+  }
+  
+  main #boxContactos form #cont-up li label {
+    color: black;
+    margin: 5px 0px;
+  }
+  
+  main #boxContactos form #cont-up li input {
+    background: #FFFFFF;
+    border: 1px solid #C6CACC;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 17px;
+    border: 0px;
+  }
+
+#cfname{
+  background: #FFFFFF;
+  border: 1px solid #C6CACC;
+  font-weight: 700;
+  padding: 0px 5px;
+  font-size: 17px;
+  border: 0px;
+}
+  
+  main #boxContactos form #cont-up li select {
+    border-radius: 5px;
+    border-color: #0462ba;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 17px;
+    border: 0px;
+  }
+  
+  main #boxContactos form #cont-up li h4 {
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+    margin-top: 3px;
+  }
+  
+  main #boxContactos form #cont-down {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 1fr 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+        grid-template-areas: "reg pai ciu dir int" "canal canal canal canal canal" "tel tel tel tel tel" "wha wha wha wha wha" "ins ins ins ins ins" "fac fac fac fac fac" "lin lin lin lin lin";
+    padding: 20px 30px;
+    background-color: #dcdcdc;
+    margin: 0px 15px;
+  }
+  
+  main #boxContactos form #cont-down .reg {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: reg;
+  }
+  
+  main #boxContactos form #cont-down .pai {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: pai;
+  }
+  
+  main #boxContactos form #cont-down .ciu {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: ciu;
+  }
+  
+  main #boxContactos form #cont-down .dir {
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+    grid-area: dir;
+  }
+  
+  main #boxContactos form #cont-down .int {
+    -ms-grid-row: 1;
+    -ms-grid-column: 5;
+    grid-area: int;
+  }
+  
+  main #boxContactos form #cont-down .canal {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: canal;
+  }
+  
+  main #boxContactos form #cont-down .tel {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: tel;
+  }
+  
+  main #boxContactos form #cont-down .wha {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: wha;
+  }
+  
+  main #boxContactos form #cont-down .ins {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: ins;
+  }
+  
+  main #boxContactos form #cont-down .fac {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: fac;
+  }
+  
+  main #boxContactos form #cont-down .lin {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: lin;
+  }
+  
+  main #boxContactos form #cont-down li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  
+  main #boxContactos form #cont-down li.canal {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.canal label {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-bottom: 8px;
+    font-size: 17px;
+  }
+  
+  main #boxContactos form #cont-down li.tel {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 20px;
+        grid-template-rows: 20px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.tel input {
+    width: 350px;
+  }
+  
+  main #boxContactos form #cont-down li.tel select {
+    width: 170px;
+  }
+  
+  main #boxContactos form #cont-down li.wha {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 20px;
+        grid-template-rows: 20px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.wha input {
+    width: 350px;
+  }
+  
+  main #boxContactos form #cont-down li.wha select {
+    width: 170px;
+  }
+  
+  main #boxContactos form #cont-down li.ins {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 20px;
+        grid-template-rows: 20px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.ins input {
+    width: 350px;
+  }
+  
+  main #boxContactos form #cont-down li.ins select {
+    width: 170px;
+  }
+  
+  main #boxContactos form #cont-down li.fac {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 20px;
+        grid-template-rows: 20px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.fac input {
+    width: 350px;
+  }
+  
+  main #boxContactos form #cont-down li.fac select {
+    width: 170px;
+  }
+  
+  main #boxContactos form #cont-down li.lin {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px 350px 170px 100px;
+        grid-template-columns: 180px 350px 170px 100px;
+    -ms-grid-rows: 20px;
+        grid-template-rows: 20px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  
+  main #boxContactos form #cont-down li.lin input {
+    width: 350px;
+  }
+  
+  main #boxContactos form #cont-down li.lin select {
+    width: 170px;
+  }
+  
+  main #boxContactos form #cont-down li label {
+    color: black;
+    margin: 5px 0px;
+  }
+  
+  main #boxContactos form #cont-down li input {
+    border-radius: 5px;
+    border-color: #dcdcdc;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 17px;
+    border: 0px;
+    width: 250px;
+  }
+  
+  main #boxContactos form #cont-down li select {
+    border-radius: 5px;
+    border-color: #dcdcdc;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 17px;
+    border: 0px;
+    width: 250px;
+  }
+  
+  main #boxContactos form #cont-down li h4 {
+    font-size: 10px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 3px;
+    width: 250px;
+  }
+  
+  main #boxContactos form #botonaccion {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 170px;
+    line-height: 50px;
+    margin: 15px 15px 15px auto;
+    color: black;
+    background: rgba(0,0,0,0.25);
+    border-radius: 2px;
+    border-radius: 2px;
+  }
+
+#contactos{
+    font-weight: bold;
+    border-bottom: solid white 2px;
+  }
+ 

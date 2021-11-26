@@ -1,0 +1,73 @@
+.new_div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: #000000;
+  z-index: 999;
+}
+
+.new_div .bigger_gif {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #1D72C2), color-stop(40%, white)) no-repeat;
+  background: linear-gradient(#1D72C2 40%, white 40%) no-repeat;
+  width: 1215px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.new_div .bigger_gif p {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.new_div .add_company {
+  width: 1170px;
+  height: 130px;
+  background-color: white;
+  border: 3px solid #0683F9;
+  border-radius: 6.5px;
+  border-radius: 6.5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -340px;
+}
+
+.new_div .add_company .formularioRegionesEditar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new_div .add_company .formularioRegionesEditar div {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.new_div .add_company .formularioRegionesEditar div p {
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 3px;
+}
+
+.new_div .add_company .formularioRegionesEditar div input[type="name"], .new_div .add_company .formularioRegionesEditar div input[type="email"], .new_div .add_company .formularioRegionesEditar div input[type="password"], .new_div .add_company .formularioRegionesEditar div input[type="perfil"] {
+  height: 30px;
+  border: 1px solid #CCCCCC;
+}
+/*# sourceMappingURL=estilossass.css.map */
